@@ -46,33 +46,34 @@ This builds the app for production to the `build` folder.
 
 ## Deployment
 
-### Netlify (Recommended)
+### GitHub Pages
 
-1. **Push your code to GitHub** (if not already done)
+This project is configured for GitHub Pages deployment.
+
+1. **Deploy to GitHub Pages:**
    ```bash
-   git push origin main
+   npm run deploy
    ```
+   This will build the project and push it to the `gh-pages` branch.
 
-2. **Connect to Netlify:**
-   - Go to [https://www.netlify.com](https://www.netlify.com)
-   - Sign up or log in
-   - Click "Add new site" → "Import an existing project"
-   - Connect to GitHub and select your `weddinginvitation` repository
+2. **Enable GitHub Pages:**
+   - Go to your repository on GitHub: https://github.com/stellamaa/weddinginvitation
+   - Navigate to **Settings** → **Pages**
+   - Under "Source", select **Branch: `gh-pages`**
+   - Click **Save**
 
-3. **Configure build settings:**
-   - Build command: `npm run build`
-   - Publish directory: `build`
-   - Click "Deploy site"
+3. **Your site will be live at:**
+   - https://stellamaa.github.io/weddinginvitation
+   - It may take a few minutes for the site to be available after the first deployment
 
-4. **Your site will be live!** Netlify will provide a URL like `your-site-name.netlify.app`
-   - You can customize the domain name in Site settings → Domain management
+4. **To update the site:**
+   - Make your changes
+   - Run `npm run deploy` again
+   - The site will automatically update
 
-### Alternative: Vercel
+### Alternative: Netlify or Vercel
 
-1. Go to [https://vercel.com](https://vercel.com)
-2. Import your GitHub repository
-3. Vercel will automatically detect React and configure the build settings
-4. Click "Deploy"
+You can also deploy to Netlify or Vercel by connecting your GitHub repository. They will automatically detect React and configure the build settings.
 
 ## Project Structure
 
