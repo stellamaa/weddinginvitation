@@ -132,12 +132,12 @@
   .header-container {
     height: 60vh;
     min-height: auto;
-    padding: 20px 0 40px;
+    padding: 10px 0 40px;
     z-index: 2;
   }
   
   .navigation {
-    padding: 20px 0 15px;
+    padding: 0px 0 15px;
     order: 1;
 
   }
