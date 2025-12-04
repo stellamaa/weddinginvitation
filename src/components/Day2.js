@@ -1,7 +1,7 @@
 import React from 'react';
 import './Day2.css';
 import blueBackground from '../assets/bluecurverotate.png';
-import flowerImage from '../assets/flower.png';
+import flowerImage from '../assets/flower.svg';
 
 const Day2 = () => {
   return (

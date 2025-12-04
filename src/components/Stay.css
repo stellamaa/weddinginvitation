@@ -153,5 +153,12 @@
   .accommodation-card {
     padding: 15px;
   }
+  .accommodation-subtitle{
+    width: 220px;
+    margin: auto;
 }
-
+.airbnb-note{
+  width: 250px;
+  margin: auto;
+}
+}

@@ -45,3 +45,4 @@ echo "3. Set build command: npm run build"
 echo "4. Set publish directory: build"
 echo "5. Deploy!"
 
+

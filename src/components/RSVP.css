@@ -86,7 +86,7 @@
   width: 270px;
   height: 33px;
   padding: 12px;
-  border: 1px solid #ACC3B7;
+  border: 1px solid #216244;
   border-radius: 4px;
   font-family: "Montserrat", sans-serif;
   color: #216244;
@@ -138,7 +138,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 1px solid #ACC3B7;
+  border: 1px solid #216244;
   background-color: white;
   position: relative;
   order: 2;
@@ -185,11 +185,12 @@
     max-width: 600px;
     min-height: 70vh;
     border-radius: 30px;
-    padding: 40px 20px;
+    padding: 10px 20px;
   }
 
   .rsvp-title {
     font-size: 24px;
+    padding-top: 20px;
   }
 
   .rsvp-section {
