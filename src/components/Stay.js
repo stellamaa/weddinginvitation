@@ -38,7 +38,7 @@ const Stay = () => {
             </div>
           ))}
         </div>
-        <p className="airbnb-note">THERE ARE ALSO A NUMBER OF AIRBNB LISTED <a href="#" className="here-link">HERE</a></p>
+        <p className="airbnb-note">THERE ARE ALSO A NUMBER OF AIRBNB LISTED <a href="https://www.airbnb.co.uk/wishlists/1883183613/invite?share_token=64597c53-2d86-4362-9d5a-6081647d017d" target="_blank" rel="noopener noreferrer" className="here-link">HERE</a></p>
       </div>
     </section>
   );
