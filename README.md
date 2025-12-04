@@ -46,24 +46,33 @@ This builds the app for production to the `build` folder.
 
 ## Deployment
 
-This project can be deployed to various platforms:
+### Netlify (Recommended)
 
-### Netlify
-1. Push your code to GitHub
-2. Connect your repository to Netlify
-3. Set build command: `npm run build`
-4. Set publish directory: `build`
+1. **Push your code to GitHub** (if not already done)
+   ```bash
+   git push origin main
+   ```
 
-### Vercel
-1. Push your code to GitHub
-2. Import your repository to Vercel
+2. **Connect to Netlify:**
+   - Go to [https://www.netlify.com](https://www.netlify.com)
+   - Sign up or log in
+   - Click "Add new site" → "Import an existing project"
+   - Connect to GitHub and select your `weddinginvitation` repository
+
+3. **Configure build settings:**
+   - Build command: `npm run build`
+   - Publish directory: `build`
+   - Click "Deploy site"
+
+4. **Your site will be live!** Netlify will provide a URL like `your-site-name.netlify.app`
+   - You can customize the domain name in Site settings → Domain management
+
+### Alternative: Vercel
+
+1. Go to [https://vercel.com](https://vercel.com)
+2. Import your GitHub repository
 3. Vercel will automatically detect React and configure the build settings
-
-### GitHub Pages
-1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add to package.json scripts: `"deploy": "gh-pages -d build"`
-3. Add homepage field: `"homepage": "https://yourusername.github.io/wedding-invitation"`
-4. Run: `npm run deploy`
+4. Click "Deploy"
 
 ## Project Structure
 
