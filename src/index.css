@@ -15,4 +15,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Prevent automatic phone number detection and styling on mobile */
+a[href^="tel:"] {
+  text-decoration: none;
+}
+
+/* Prevent auto-styling of phone-like numbers */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'typewriter';
+  src: url('../assets/fonts/typewcond_regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'typewriterbold';
+  src: url('../assets/fonts/typewcond_bold.otf') format('opentype');
+}
 .rsvp-section {
   min-height: 100vh;
   width: 100vw;
@@ -74,9 +82,10 @@
 
 .form-group label,
 .form-label-name {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
   color: #216244;
   text-transform: uppercase;
   white-space: nowrap;
@@ -88,7 +97,8 @@
   padding: 12px;
   border: 1px solid #216244;
   border-radius: 4px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "typewriter";
+  font-size: 1.1rem;
   color: #216244;
   transition: border-color 0.3s ease;
 }
@@ -117,7 +127,7 @@
   justify-content: flex-start;
   gap: 10px;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: "typewriter";
 
   font-weight: 400;
   letter-spacing: 1px;
@@ -130,8 +140,8 @@
 }
 
 .radio-input {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   cursor: pointer;
   accent-color: #216244;
   border-radius: 0;
@@ -139,6 +149,7 @@
   -moz-appearance: none;
   appearance: none;
   border: 1px solid #216244;
+  border-radius: 2px;
   background-color: white;
   position: relative;
   order: 2;
@@ -160,14 +171,15 @@
 }
 
 .submit-button {
-  padding: 5px 10px;
+  padding: 2px 7px;
   background-color: transparent;
   color: #216244;
   border: 1px solid #216244;
   border-radius: 2px;
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -190,7 +202,7 @@
 
   .rsvp-title {
     font-size: 24px;
-    padding-top: 20px;
+    margin-top: 76px;
   }
 
   .rsvp-section {
@@ -200,8 +212,8 @@
 
   .rsvp-form {
     width: 65vw;
-    height: 24vh;
-    gap: 1rem;
+    height: 42vh;
+    gap: 0.8rem;
   }
 .rsvp-title {
   margin-bottom: 30px;
@@ -215,6 +227,10 @@
     padding-bottom: 0px;
     
   
+  }
+  .form-input {
+   width: 70vw;
+    height: 28px;
   }
  
   image {

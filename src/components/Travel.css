@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'typewriter';
+  src: url('../assets/fonts/typewcond_regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'typewriterbold';
+  src: url('../assets/fonts/typewcond_bold.otf') format('opentype');
+}
 .travel-section {
   min-height: 40vh;
   width: 100%;
@@ -11,12 +19,12 @@
 }
 
 .travel-content {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .section-title {
-  
+  font-family: 'typewriterbold';
     font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 2px;
@@ -40,8 +48,8 @@ h2 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 0px;
+  margin-bottom: 0px;
 }
 .section-title4 {
     font-size: 48px;
@@ -53,37 +61,51 @@ h2 {
 }
 
 .travel-subtitle {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
-  font-size: 16px;
+  font-family: 'typewriterbold';
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: #216244;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .travel-text {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   line-height: 1.8;
   color: #216244;
   font-weight: 300;
   max-width: 325px;
   text-align: center;
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
 }
 
 .travel-text p {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .travel-text1 {
     line-height: 1.8;
+    text-decoration: none;
+    -webkit-text-decoration: none;
+    -moz-text-decoration: none;
+}
+
+.travel-text1 p {
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
 }
 
 .taxi-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 5px;
+  gap: 2px;
+  margin-top: 0px;
   align-items: center;
 
 }
@@ -96,7 +118,8 @@ h2 {
 }
 
 .taxi-name {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   font-weight: 200;
   color: #216244;
   text-transform: uppercase;
@@ -104,10 +127,14 @@ h2 {
 }
 
 .taxi-number {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   font-weight: lighter;
   color: #216244;
   font-weight: 200;
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
 }
 
 .wave-divider {
@@ -167,10 +194,19 @@ h2 {
     gap: 10px;
   }
   .taxi-number {
-    text-decoration: none;
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    -moz-text-decoration: none !important;
   }
   .travel-text1 {
-    text-decoration: none;
-}
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    -moz-text-decoration: none !important;
+  }
+  .travel-text1 p {
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    -moz-text-decoration: none !important;
+  }
 
 }

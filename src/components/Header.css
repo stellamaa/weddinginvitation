@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'typewriter';
+  src: url('../assets/fonts/typewcond_regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'typewriterbold';
+  src: url('../assets/fonts/typewcond_bold.otf') format('opentype');
+}
+
 .header-container {
  height: 70vh;
  width: 100vw;
@@ -62,12 +71,13 @@
   width: 100%;
   gap: 10px;
   line-height: 1;
+  font-family: 'typewriter';
 }
 
 .date-time,
 .venue {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
-  font-size: 14px;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 1px;
   color: #216244;
@@ -77,8 +87,7 @@
 
 .header-section p,
 .header-section strong {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
- 
+  font-family: 'typewriter', sans-serif;
   font-weight: 400;
   color: #216244;
 }

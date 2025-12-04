@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'typewriter';
+  src: url('../assets/fonts/typewcond_regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'typewriterbold';
+  src: url('../assets/fonts/typewcond_bold.otf') format('opentype');
+}
 .stay-section {
   background-color: #FFEBE4;
   padding: 80px 20px 100px;
@@ -27,8 +35,10 @@
 }
 
 .accommodation-details {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
-  line-height: 1.3;
+  font-family: 'typewriter';
+  line-height: 1.4;
+  gap:10px;
+  font-size: 1.1rem;
   color: #216244;
   text-align: center;
   max-width: 525px;
@@ -46,8 +56,8 @@
 }
 
 .accommodation-subtitle {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
-  font-size: 16px;
+  font-family: 'typewriter';
+  font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: 1px;
   color: #216244;
@@ -85,23 +95,29 @@
 }
 
 .accommodation-name {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
   font-weight: 400;
   color: #216244;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 5px;
+  font-size: 1.1rem;
 }
 
 .accommodation-drive,
 .accommodation-phone {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   color: #216244;
   line-height: 1.5;
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
 }
 
 .accommodation-website {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   color: #216244;
   line-height: 1.5;
 }
@@ -113,7 +129,8 @@
 }
 
 .airbnb-note {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
+  font-size: 1.1rem;
   font-weight: 400;
   color: #216244;
   text-align: center;
@@ -156,9 +173,15 @@
   .accommodation-subtitle{
     width: 220px;
     margin: auto;
-}
-.airbnb-note{
-  width: 250px;
-  margin: auto;
-}
+  }
+  .airbnb-note{
+    width: 250px;
+    margin: auto;
+  }
+  .accommodation-drive,
+  .accommodation-phone {
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    -moz-text-decoration: none !important;
+  }
 }
