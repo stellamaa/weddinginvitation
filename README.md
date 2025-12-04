@@ -1,6 +1,6 @@
 # Wedding Invitation Website
 
-A beautiful, responsive wedding invitation website for Adam & Stephanie's wedding on September 12, 2025.
+A beautiful, responsive wedding invitation website for Adam & Stephanie's wedding on September 12, 2026.
 
 ## Features
 
@@ -10,6 +10,8 @@ A beautiful, responsive wedding invitation website for Adam & Stephanie's weddin
 - Travel information
 - Accommodation options
 - Vintage floral design with custom backgrounds
+- Running order of the day
+- Day 2 event details
 
 ## Getting Started
 
@@ -42,6 +44,27 @@ npm run build
 
 This builds the app for production to the `build` folder.
 
+## Deployment
+
+This project can be deployed to various platforms:
+
+### Netlify
+1. Push your code to GitHub
+2. Connect your repository to Netlify
+3. Set build command: `npm run build`
+4. Set publish directory: `build`
+
+### Vercel
+1. Push your code to GitHub
+2. Import your repository to Vercel
+3. Vercel will automatically detect React and configure the build settings
+
+### GitHub Pages
+1. Install gh-pages: `npm install --save-dev gh-pages`
+2. Add to package.json scripts: `"deploy": "gh-pages -d build"`
+3. Add homepage field: `"homepage": "https://yourusername.github.io/wedding-invitation"`
+4. Run: `npm run deploy`
+
 ## Project Structure
 
 ```
@@ -58,32 +81,22 @@ wedding/
 │   │   ├── Day2.js
 │   │   ├── Footer.js
 │   │   └── Navigation.js
+│   ├── assets/
+│   │   └── [images]
 │   ├── App.js
 │   ├── App.css
 │   ├── index.js
 │   └── index.css
 └── assets/
-    ├── bluebackground.png
-    ├── blueflowers.png
-    ├── doily.png
-    ├── pinkflowers.png
-    └── whiteflowers.png
+    └── [images]
 ```
-
-## Customization
-
-You can customize the wedding details by editing the component files in `src/components/`. The main sections are:
-
-- **Header**: Couple names and event details
-- **RunningOrder**: Schedule of events
-- **RSVP**: RSVP form
-- **Travel**: Travel and transportation information
-- **Stay**: Accommodation options
-- **Day2**: Day 2 event details
 
 ## Technologies Used
 
 - React 18
 - CSS3
-- Google Fonts (Dancing Script, Montserrat)
+- Google Fonts (Dancing Script, Montserrat, Share Tech Mono)
 
+## License
+
+Private project for personal use.
