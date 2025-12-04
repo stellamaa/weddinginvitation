@@ -1,0 +1,156 @@
+.day2-section {
+  min-height: 70vh;
+  padding: 190px 0px 100px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  margin-top: -100px;
+  padding-top: 150px;
+  border-bottom: 5px solid #216244;
+}
+
+
+.day2-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+.day2-details {
+  margin-bottom: 75px;
+  margin-top: 15px;
+}
+
+.day2-venue,
+.day2-time,
+.day2-rsvp {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  line-height: 1;
+  color: #216244;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.day2-venue {
+  font-weight: 400;
+}
+
+.larkins-link {
+  color: #216244;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.3s ease;
+}
+
+.larkins-link:hover {
+  opacity: 0.7;
+}
+
+.day2-time {
+  font-weight: 400;
+}
+
+.day2-rsvp {
+  font-weight: 400;
+}
+
+.children-section {
+  margin-top: 40px;
+  padding: 0;
+  background-color: transparent;
+}
+
+.children-title, .section-title2 {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #216244;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  font-size: 1.1rem;
+  padding: 25px auto 0;
+
+}
+
+.children-text {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  line-height: 0.6;
+  color: #216244;
+  font-weight: 300;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+
+.flower-image {
+  width: 80px;
+  height: auto;
+  margin: 50px auto 0;
+  display: block;
+}
+
+.wave-divider-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: #FFEBE4;
+  clip-path: polygon(
+    0% 100%,
+    5% 90%,
+    10% 100%,
+    15% 90%,
+    20% 100%,
+    25% 90%,
+    30% 100%,
+    35% 90%,
+    40% 100%,
+    45% 90%,
+    50% 100%,
+    55% 90%,
+    60% 100%,
+    65% 90%,
+    70% 100%,
+    75% 90%,
+    80% 100%,
+    85% 90%,
+    90% 100%,
+    95% 90%,
+    100% 100%,
+    100% 0%,
+    0% 0%
+  );
+}
+
+.day2-footer {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 2px solid #216244;
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 36px;
+  }
+  
+  .day2-section {
+    padding: 60px 20px 40px;
+    min-height: auto;
+    
+  }
+  
+  
+  .flower-image {
+    width: 50px;
+  }
+}
+

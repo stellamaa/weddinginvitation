@@ -1,0 +1,181 @@
+.header-container {
+ height: 70vh;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ margin-top: 0px;
+ background-image: url('../assets/bluecurve.png');
+ background-size: cover;
+ background-position: bottom;
+ background-repeat: no-repeat;
+ position: relative;
+ z-index: 2;
+ border-top: 15px solid #216244;
+ padding-bottom: 60px;
+}
+
+.couple-names-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: auto;
+    height: auto;
+  z-index: 999;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.couple-names-image {
+  width: auto;
+  height: auto;
+  max-width: 350px;
+  display: block;
+}
+
+/* .header-section {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px 60px;
+  position: relative;
+  margin-top: 50vh;
+  background-image: url('../assets/bluecurve.png');
+} */
+
+
+.header-content {
+  text-align: center;
+  z-index: 1;
+}
+.event-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.date-time,
+.venue {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #216244;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header-section p,
+.header-section strong {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+ 
+  font-weight: 400;
+  color: #216244;
+}
+
+
+.navigation {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background: none;
+    padding: 50px 0;
+    background-image: none;
+ 
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  
+  .nav-link {
+    background: transparent;
+    border: none;
+    font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #216244;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity 0.3s ease;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .nav-link:hover {
+    opacity: 0.7;
+  }
+  
+
+  
+  
+
+@media (max-width: 768px) {
+  .header-container {
+    height: 60vh;
+    min-height: auto;
+    padding: 20px 0 40px;
+    z-index: 2;
+  }
+  
+  .navigation {
+    padding: 20px 0 15px;
+    order: 1;
+
+  }
+  
+  .nav-links {
+    gap: 25px;
+  }
+  
+  .nav-link {
+    font-size: 11px;
+    font-size: 1rem;
+
+  }
+  
+  .couple-names-container {
+    padding: 70px 0;
+    order: 2;
+  }
+  
+  .couple-names-image {
+    max-width: 85%;
+  }
+  
+  .header-section {
+    order: 3;
+    padding: 10px 0;
+    margin: 0;
+    background: transparent;
+  }
+
+  .event-details {
+    background: transparent;
+    
+  }
+  
+  .date-time,
+  .venue {
+    font-size: 14px;
+  }
+}
+

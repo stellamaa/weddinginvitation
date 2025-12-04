@@ -1,0 +1,157 @@
+.stay-section {
+  background-color: #FFEBE4;
+  padding: 80px 20px 100px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -50px;
+  padding-bottom: 150px;
+}
+
+.stay-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.section-title3 {
+  font-family: Times New Roman, Times, serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #216244;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.main-accommodation {
+  margin-bottom: 50px;
+}
+
+.accommodation-details {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  line-height: 1.3;
+  color: #216244;
+  text-align: center;
+  max-width: 525px;
+  margin: auto;
+}
+
+.accommodation-details p {
+  margin-bottom: 15px;
+}
+
+.email-link {
+  color: #216244;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.accommodation-subtitle {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #216244;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.accommodation-grid {
+    max-width: 750px;
+    margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-items: center;
+}
+
+.accommodation-card {
+    width: 250px;
+    padding: 20px;
+    background: white;
+    clip-path: polygon(
+      10% 0%,   /* top-left cut */
+      90% 0%,   /* top-right cut */
+      100% 10%,
+      100% 90%,
+      90% 100%, /* bottom-right cut */
+      10% 100%,
+      0% 90%,
+      0% 10%
+    );
+}
+
+.accommodation-name {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-weight: 400;
+  color: #216244;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.accommodation-drive,
+.accommodation-phone {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  color: #216244;
+  line-height: 1.5;
+}
+
+.accommodation-website {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  color: #216244;
+  line-height: 1.5;
+}
+
+.accommodation-website a {
+  color: #216244;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.airbnb-note {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-weight: 400;
+  color: #216244;
+  text-align: center;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.here-link {
+  color: #216244;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .accommodation-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .accommodation-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-title {
+    font-size: 24px;
+  }
+  
+  .stay-section {
+    padding-bottom: 150px;
+    padding-top: 20px;
+  }
+  
+  .accommodation-card {
+    padding: 15px;
+  }
+}
+

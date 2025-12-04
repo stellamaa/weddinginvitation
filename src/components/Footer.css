@@ -1,0 +1,28 @@
+.footer-section {
+  height: 40vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+
+@media (max-width: 768px) {
+  .footer-text {
+    font-size: 36px;
+  }
+  
+  .footer-date {
+    font-size: 14px;
+  }
+  
+  .footer-section {
+    min-height: 30vh;
+    padding: 40px 20px;
+  }
+}
+

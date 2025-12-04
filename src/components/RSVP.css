@@ -1,0 +1,224 @@
+.rsvp-section {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 60px 20px;
+  background-image: url("../assets/blueflowers2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-bottom: 5px solid #216244;
+}
+
+.rsvp-content {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  max-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.rsvp-form-container {
+
+  width: 100vw;
+  height: 100vh;
+  padding: 180px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/doily.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rsvp-form-container image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rsvp-title {
+  font-family: "Times New Roman", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #216244;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.rsvp-form {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: end;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-group label,
+.form-label-name {
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #216244;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.form-input {
+  width: 270px;
+  height: 33px;
+  padding: 12px;
+  border: 1px solid #ACC3B7;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  color: #216244;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #216244;
+}
+
+.form-input::placeholder {
+  color: #ACC3B7;
+  opacity: 0.6;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: end;
+  gap: 15px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #216244;
+  text-transform: uppercase;
+}
+
+.radio-label span {
+  order: 1;
+}
+
+.radio-input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #216244;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ACC3B7;
+  background-color: white;
+  position: relative;
+  order: 2;
+}
+
+.radio-input:checked {
+  background-color: #ACC3B7;
+}
+
+.radio-input:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: white;
+}
+
+.submit-button {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #216244;
+  border: 1px solid #216244;
+  border-radius: 2px;
+  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #ACC3B7;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .rsvp-form-container {
+    width: 90%;
+    max-width: 600px;
+    min-height: 70vh;
+    border-radius: 30px;
+    padding: 40px 20px;
+  }
+
+  .rsvp-title {
+    font-size: 24px;
+  }
+
+  .rsvp-section {
+    padding: 100px 20px 50px;
+    min-height: auto;
+  }
+
+  .rsvp-form {
+    width: 65vw;
+    height: 24vh;
+    gap: 1rem;
+  }
+.rsvp-title {
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+  .rsvp-form-container {
+    width: 70vw;
+    height: 50vh;
+    min-width: 140vw;
+    min-height: 400px;
+    padding-bottom: 0px;
+    
+  
+  }
+ 
+  image {
+  
+    height: 1000px;
+    object-fit: cover;
+  }
+}
