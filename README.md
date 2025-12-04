@@ -46,34 +46,61 @@ This builds the app for production to the `build` folder.
 
 ## Deployment
 
-### GitHub Pages
+### Netlify (Automatic Deployments)
 
-This project is configured for GitHub Pages deployment.
+This project is configured for Netlify with **automatic deployments** - your site will update automatically whenever you push changes to GitHub!
 
-1. **Deploy to GitHub Pages:**
-   ```bash
-   npm run deploy
-   ```
-   This will build the project and push it to the `gh-pages` branch.
+#### Initial Setup:
 
-2. **Enable GitHub Pages:**
-   - Go to your repository on GitHub: https://github.com/stellamaa/weddinginvitation
-   - Navigate to **Settings** → **Pages**
-   - Under "Source", select **Branch: `gh-pages`**
-   - Click **Save**
+1. **Go to Netlify:**
+   - Visit [https://www.netlify.com](https://www.netlify.com)
+   - Sign up or log in (you can use your GitHub account)
 
-3. **Your site will be live at:**
-   - https://stellamaa.github.io/weddinginvitation
-   - It may take a few minutes for the site to be available after the first deployment
+2. **Connect Your Repository:**
+   - Click **"Add new site"** → **"Import an existing project"**
+   - Choose **"Deploy with GitHub"**
+   - Authorize Netlify to access your GitHub account
+   - Select your repository: `stellamaa/weddinginvitation`
 
-4. **To update the site:**
-   - Make your changes
-   - Run `npm run deploy` again
-   - The site will automatically update
+3. **Build Settings (Auto-detected):**
+   - Netlify will automatically detect the `netlify.toml` file
+   - Build command: `npm run build` ✅
+   - Publish directory: `build` ✅
+   - Click **"Deploy site"**
 
-### Alternative: Netlify or Vercel
+4. **Your site is now live!**
+   - Netlify will provide a URL like `your-site-name.netlify.app`
+   - You can customize the domain in **Site settings** → **Domain management**
 
-You can also deploy to Netlify or Vercel by connecting your GitHub repository. They will automatically detect React and configure the build settings.
+#### Automatic Deployments (Already Set Up!):
+
+Once connected, **every time you push to GitHub**, Netlify will:
+- ✅ Automatically detect the changes
+- ✅ Build your site
+- ✅ Deploy the new version
+- ✅ Update your live site
+
+**No manual deployment needed!** Just:
+```bash
+git add .
+git commit -m "Your changes"
+git push origin main
+```
+
+And Netlify will handle the rest automatically.
+
+#### View Deployments:
+
+- Go to your site dashboard on Netlify
+- Click on **"Deploys"** to see all deployments
+- Each push creates a new deployment automatically
+- You can see build logs and deployment status
+
+#### Custom Domain (Optional):
+
+- Go to **Site settings** → **Domain management**
+- Click **"Add custom domain"**
+- Follow the instructions to configure your domain
 
 ## Project Structure
 
