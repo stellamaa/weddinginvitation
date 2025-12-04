@@ -7,7 +7,6 @@ import Travel from './components/Travel';
 import Stay from './components/Stay';
 import Day2 from './components/Day2';
 import Footer from './components/Footer';
-import Navigation from './components/Navigation';
 
 function App() {
   return (

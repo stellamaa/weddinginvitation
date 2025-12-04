@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import blueBackground from '../assets/bluebackground.png';
 import coupleNamesImage from '../assets/Adam & Stephanie.png';
 
 

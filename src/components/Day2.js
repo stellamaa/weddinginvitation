@@ -2,7 +2,6 @@ import React from 'react';
 import './Day2.css';
 import blueBackground from '../assets/bluecurverotate.png';
 import flowerImage from '../assets/flower.png';
-import pinkFlowers from '../assets/pinkflowers.png';
 
 const Day2 = () => {
   return (
