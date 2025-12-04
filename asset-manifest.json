@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5840d6f.css",
+    "main.js": "/static/js/main.4bb32752.js",
+    "static/media/pinkflowers.png": "/static/media/pinkflowers.e64d1e1b28969077da0d.png",
+    "static/media/blueflowers2.png": "/static/media/blueflowers2.ee39a51a585ed8d66d60.png",
+    "static/media/bluecurverotate.png": "/static/media/bluecurverotate.310de4b5d3491bfff74b.png",
+    "static/media/bluecurve.png": "/static/media/bluecurve.85adfba4ff32c81b4268.png",
+    "static/media/doily.png": "/static/media/doily.4eba162a990cfdc7003e.png",
+    "static/media/Adam & Stephanie.png": "/static/media/Adam & Stephanie.876ba9fb81ed0b1b392b.png",
+    "index.html": "/index.html",
+    "main.a5840d6f.css.map": "/static/css/main.a5840d6f.css.map",
+    "main.4bb32752.js.map": "/static/js/main.4bb32752.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5840d6f.css",
+    "static/js/main.4bb32752.js"
+  ]
+}
