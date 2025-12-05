@@ -9,12 +9,17 @@ const RSVP = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    if (!name || !response) {
-      return;
-    }
-    console.log('RSVP submitted:', { name, response });
-    setIsSubmitted(true);
+  
+    if (!name || !response) return;
+  
+    // Let the browser POST the form to Netlify
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      body: new FormData(form),
+    }).then(() => {
+      setIsSubmitted(true);
+    }).catch((error) => alert(error));
   };
 
   return (
