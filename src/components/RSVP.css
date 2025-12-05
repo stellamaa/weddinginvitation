@@ -13,7 +13,7 @@
 .rsvp-section {
   min-height: 100vh;
   width: 100vw;
-  padding: 60px 20px;
+  padding: 60px 0px;
   background-image: url("../assets/blueflowers2.png");
   background-size: cover;
   background-position: center;
@@ -40,9 +40,10 @@
 .rsvp-form-container {
   width: 100vw;
   height: 100vh;
-  padding: 180px 60px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-image: url("../assets/doily.png");
   background-size: contain;
@@ -59,16 +60,14 @@
 .rsvp-title {
   font-family: "monotype";
   font-size: 48px;
-  position: absolute;
-  top: 230px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   font-weight: 400;
   letter-spacing: 3px;
   color: #216244;
-  margin-bottom: 0;
+  margin-bottom: 60px;
   text-transform: uppercase;
   z-index: 1;
+  text-align: center;
 }
 
 .rsvp-form {
@@ -76,8 +75,8 @@
   flex-direction: column;
   gap: 30px;
   align-items: end;
-  margin-top: 180px;
-  
+  width: 100%;
+  max-width: 500px;
 }
 
 .form-group {
@@ -87,7 +86,8 @@
   justify-content: end;
   align-items: center;
   gap: 15px;
-  font-size: 1.2rem;
+  margin-right: 70px;
+  font-size: 1.5rem;
 }
 
 .form-group label,
@@ -95,20 +95,20 @@
   font-family: 'typewriter';
   font-weight: 400;
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #216244;
   text-transform: uppercase;
   white-space: nowrap;
 }
 
 .form-input {
-  width: 290px;
+  width: 320px;
   height: 33px;
   padding: 12px;
   border: 1px solid #216244;
   border-radius: 4px;
   font-family: "typewriter";
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #216244;
   transition: border-color 0.3s ease;
 }
@@ -192,13 +192,15 @@
   border: 1px solid #216244;
   border-radius: 2px;
   font-family: 'typewriter';
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0px;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 10px;
+  margin-right: 70px;
+
 }
 
 .submit-button:hover {
@@ -211,13 +213,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 90px;
   min-height: 300px;
   text-decoration: underline;
   text-underline-offset: 5px;
   text-decoration-color: #216244;
   text-decoration-thickness: 1px;
-
 }
 
 .thank-you-text {
@@ -227,6 +227,7 @@
   color: #216244;
   text-align: center;
   margin: 0;
+  min-height: 150px;
 }
 
 @media (max-width: 768px) {
@@ -235,7 +236,7 @@
   }
   
   .thank-you-message {
-    margin-top: 80px;
+    margin-top: 0;
   }
 }
 
@@ -260,32 +261,52 @@
 
   .rsvp-form {
     width: 65vw;
-    height: 42vh;
+    max-width: 500px;
     gap: 0.4rem;
-    margin-top: 80px;
+    margin-top: 0px;
   }
 .rsvp-title {
-  margin-bottom: 0;
+  margin-bottom: 20px;
   font-size: 48px;
-  top: 86px;
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
 }
   .rsvp-form-container {
     width: 70vw;
     height: 60vh;
     min-width: 140vw;
     min-height: 500px;
-    padding-bottom: 0px;
-    
-  
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
   }
   .form-input {
-   width: 70vw;
+   width: 60vw;
     height: 28px;
+  }
+  .form-group label,
+  .form-label-name, .submit-button {
+    font-size: 1.1rem;
+  }
+  .form-group, .submit-button {
+    margin-right: 10px;
+    gap: 0.5rem;
+  }
+  .radio-group {
+    gap: 0.5rem;
   }
  
   image {
   
     height: 1000px;
     object-fit: cover;
+  }
+  .thank-you-message {
+    margin-top: 0px;
+    min-height: 100px;
   }
 }
