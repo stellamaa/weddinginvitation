@@ -48,7 +48,7 @@ const RSVP = () => {
              <input
                type="text"
                id="name"
-               name="name"     // ⭐ IMPORTANT for Netlify
+               name="name"
                value={name}
                onChange={(e) => setName(e.target.value)}
                required
@@ -62,7 +62,7 @@ const RSVP = () => {
                  <span>JOYFULLY ACCEPT</span>
                  <input
                    type="radio"
-                   name="response"    // ⭐ must match the field name
+                   name="response"
                    value="accept"
                    checked={response === 'accept'}
                    onChange={(e) => setResponse(e.target.value)}
