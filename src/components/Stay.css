@@ -6,6 +6,10 @@
   font-family: 'typewriterbold';
   src: url('../assets/fonts/typewcond_bold.otf') format('opentype');
 }
+@font-face {
+  font-family: 'monotype';
+  src: url('../assets/fonts/Monotype.otf') format('opentype');
+}
 .stay-section {
   background-color: #FFEBE4;
   padding: 80px 20px 100px;
@@ -21,7 +25,7 @@
 }
 
 .section-title3 {
-  font-family: Times New Roman, Times, serif;
+  font-family: 'monotype';
   font-size: 48px;
   font-weight: 400;
   color: #216244;

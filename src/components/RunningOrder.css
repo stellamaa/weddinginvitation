@@ -18,6 +18,16 @@
   font-family: 'Times New Roman', serif;
   color: #216244;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.running-order-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  display: block;
 }
 
 .running-order-list {
@@ -118,18 +128,9 @@
     max-width: 400px;
   }
   
-  .running-order-title {
-    font-size: 1.2rem;
-    margin-bottom: 0rem;
-  }
-  
-  .running-order-item .time,
-  .running-order-item .event {
-    font-size: 1rem;
-  }
-  
-  .running-order-list {
-    gap: 0rem;
+  .running-order-image {
+    width: 80%;
+    max-width: 400px;
   }
 }
 

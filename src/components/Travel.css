@@ -6,6 +6,10 @@
   font-family: 'typewriterbold';
   src: url('../assets/fonts/typewcond_bold.otf') format('opentype');
 }
+@font-face {
+  font-family: 'monotype';
+  src: url('../assets/fonts/Monotype.otf') format('opentype');
+}
 .travel-section {
   min-height: 40vh;
   width: 100%;
@@ -24,7 +28,7 @@
 }
 
 .section-title {
-  font-family: 'typewriterbold';
+  font-family: 'monotype';
     font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 2px;
@@ -58,6 +62,7 @@ h2 {
     text-align: center;
     margin-bottom: 40px;
     text-transform: uppercase;
+    font-family: 'monotype';
 }
 
 .travel-subtitle {

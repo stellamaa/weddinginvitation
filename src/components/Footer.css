@@ -7,9 +7,9 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-
-
 
 @media (max-width: 768px) {
   .footer-text {
@@ -22,7 +22,10 @@
   
   .footer-section {
     min-height: 30vh;
-    padding: 40px 20px;
+    height: auto;
+    padding: 40px 20px 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
