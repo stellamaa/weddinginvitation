@@ -14,7 +14,7 @@
   min-height: 100vh;
   width: 100vw;
   padding: 60px 0px;
-  background-image: url("../assets/RSVP_BG.png");
+  background-image: url("../assets/RSVP_BG_2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,6 +24,12 @@
   align-items: center;
   position: relative;
   border-bottom: 5px solid #216244;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .rsvp-content {
