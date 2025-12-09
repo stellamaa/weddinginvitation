@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import coupleNamesImage from '../assets/Adam & Stephanie.png';
+import coupleNamesImage from '../assets/Adam&Stephanie.svg';
 
 
 

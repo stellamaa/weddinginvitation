@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'typewriter';
+  src: url('../assets/fonts/typewcond_regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'typewriterbold';
+  src: url('../assets/fonts/typewcond_bold.otf') format('opentype');
+}
 .day2-section {
   min-height: 70vh;
   padding: 190px 0px 100px;
@@ -29,7 +37,7 @@
 .day2-venue,
 .day2-time,
 .day2-rsvp {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
   line-height: 1;
   color: #216244;
   margin-bottom: 10px;
@@ -38,6 +46,7 @@
 
 .day2-venue {
   font-weight: 400;
+  font-size: 1.1rem;
 }
 
 .larkins-link {
@@ -45,6 +54,8 @@
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: opacity 0.3s ease;
+  font-size: 1.1rem;
+
 }
 
 .larkins-link:hover {
@@ -53,21 +64,25 @@
 
 .day2-time {
   font-weight: 400;
+  font-size: 1.1rem;
 }
 
 .day2-rsvp {
   font-weight: 400;
+  font-size: 1.1rem;
 }
 
 .children-section {
   margin-top: 40px;
   padding: 0;
   background-color: transparent;
+  font-size: 1.1rem;
+
 }
 
 .children-title, .section-title2 {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
-  font-weight: 500;
+  font-family: 'typewriter';
+  font-weight: 600;
   letter-spacing: 1px;
   color: #216244;
   text-transform: uppercase;
@@ -78,12 +93,13 @@
 }
 
 .children-text {
-  font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
+  font-family: 'typewriter';
   line-height: 0.6;
   color: #216244;
   font-weight: 300;
   margin-bottom: 5px;
   padding-top: 15px;
+  font-size: 1.1rem;
 }
 
 .flower-image {

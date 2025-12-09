@@ -43,20 +43,6 @@
   display: block;
 }
 
-/* .header-section {
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 100px 20px 60px;
-  position: relative;
-  margin-top: 50vh;
-  background-image: url('../assets/bluecurve.png');
-} */
 
 
 .header-content {
@@ -72,6 +58,9 @@
   gap: 10px;
   line-height: 1;
   font-family: 'typewriter';
+  letter-spacing: 0px;
+  font-size: 1.1rem;
+
 }
 
 .date-time,
@@ -79,7 +68,7 @@
   font-family: 'typewriter';
   font-size: 1.1rem;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   color: #216244;
   text-transform: uppercase;
   margin: 0;
@@ -87,7 +76,7 @@
 
 .header-section p,
 .header-section strong {
-  font-family: 'typewriter', sans-serif;
+  font-family: 'typewriter';
   font-weight: 400;
   color: #216244;
 }
@@ -116,8 +105,8 @@
   .nav-link {
     background: transparent;
     border: none;
-    font-family: 'Share Tech Mono', 'Courier New', 'Courier', monospace;
-    font-size: 11px;
+    font-family: 'typewriter';
+    font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: 1px;
     color: #216244;
@@ -127,7 +116,6 @@
     padding: 0;
     text-decoration: underline;
     text-underline-offset: 4px;
-    font-size: 0.9rem;
   }
   
   .nav-link:hover {
