@@ -3,12 +3,12 @@ import './Stay.css';
 
 const Stay = () => {
   const accommodations = [
-    { name: 'BALLYHIMIKIN HOUSE', drive: '6 MINUTE DRIVE', phone: '+353 87 244 9713', website: 'WWW.BALLYHIMIKINHOUSE.COM' },
+    { name: 'ABBEY COURT HOTEL', drive: '11 MINUTE DRIVE', phone: '+353 67 41111', website: 'WWW.ABBEYCOURT.IE', link: 'https://www.booking.com/hotel/ie/abbey-court-lodges-trinity-leisure-spa.en-gb.html?aid=311076&label=abbey-court-lodges-trinity-leisure-spa-Y2sJJgr1xbYb6Fj5cYB7gAS390337450043%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2326776132608%3Alp9044960%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YX-SVbABBf1_TwNC0YE2R9c-Share-koXQazM%401765284579&sid=f05fecd2b42b353fdbecd20370eebf77&dest_id=-1504831&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1765285739&srpvid=befc5c6f56440291&type=total&ucfs=1&' },
     { name: 'WILLIAMSFERRY HOUSE', drive: '12 MINUTE DRIVE', phone: '+353 67 31118', website: 'WILLIAMSFERRY.COM' },
     { name: 'WILLOWBROOK B&B', drive: '12 MINUTE DRIVE', phone: '+353 67 31558', website: 'WILLOWBROOK.IE' },
     { name: 'LOCK DERG HOUSE', drive: '11 MINUTE DRIVE', phone: '+353 87 773 0023', website: 'LOUGHDERGHOUSE.IE' },
     { name: 'MARYVILLE B&B', drive: '9 MINUTE DRIVE', phone: '+353 67 32531', website: 'MARYVILLEBANDB.COM' },
-    { name: 'ABBEY COURT HOTEL', drive: '11 MINUTE DRIVE', phone: '+353 67 41111', website: 'WWW.ABBEYCOURT.IE', link: 'https://www.booking.com/hotel/ie/abbey-court-lodges-trinity-leisure-spa.en-gb.html?aid=311076&label=abbey-court-lodges-trinity-leisure-spa-Y2sJJgr1xbYb6Fj5cYB7gAS390337450043%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2326776132608%3Alp9044960%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YX-SVbABBf1_TwNC0YE2R9c-Share-koXQazM%401765284579&sid=f05fecd2b42b353fdbecd20370eebf77&dest_id=-1504831&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1765285739&srpvid=befc5c6f56440291&type=total&ucfs=1&' },
+    { name: 'BALLYHIMIKIN HOUSE', drive: '6 MINUTE DRIVE', phone: '+353 87 244 9713', website: 'WWW.BALLYHIMIKINHOUSE.COM' },
     { name: 'CLARE STREET B&B', drive: '11 MINUTE DRIVE', phone: '+353 67 43627', website: 'BANDBIRELAND.COM',  link: 'https://www.bandbireland.com/accommodation/28170/clare-street-b-b' },
     { name: 'ABBEYVIEW B&B', drive: '12 MINUTE DRIVE', phone: '+353 67 41554', website: 'ABBEYVIEW.IE' },
     { name: "ANDY'S GASTROPUB B&B", drive: '11 MINUTE DRIVE', phone: '+353 67 32494', website: 'ANDYSNENAGH.COM' }
